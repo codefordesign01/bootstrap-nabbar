@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		nav{
+			box-shadow: 0px 5px 10px gray;
+		}
+		.nav-link:hover{
+			background-color: blue;
+			border-radius: 8px;
+		}
+	</style>
+</head>
+<body>
+	<!-- navbar start -->
+	<nav class="navbar bg-primary navbar-expand-lg py-0">
+		<div class="container">
+			<a href="" class="navbar-brand"><img src="logo.png" width="60px"></a>
+			<button class="navbar-toggler text-white" data-bs-target="#nav" data-bs-toggle="collapse">
+				<i class="fa-solid fa-bars text-white"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="nav">
+				<ul class="navbar-nav text-center ms-auto">
+					<li class="nav-item"><a class="nav-link text-white" href="">Home</a></li>
+					<li class="nav-item"><a class="nav-link text-white" href="">About</a></li>
+					<li class="nav-item"><a class="nav-link text-white" href="">Services</a></li>
+					<li class="nav-item"><a class="nav-link text-white" href="">login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
